@@ -1,0 +1,7 @@
+<ng-container *ngIf="(pagination$ | async) as pagination">
+  <ul>
+    <li *ngFor="let item of [] | paginate: { itemsPerPage: 25, currentPage: currentPage, totalItems: pagination.total_count }"> ... </li>
+  </ul>
+
+  <pagination-controls (pageChange)="handlePageChange($event)"></pagination-controls>
+</ng-container>

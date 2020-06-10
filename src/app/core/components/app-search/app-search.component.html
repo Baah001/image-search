@@ -1,0 +1,14 @@
+<form class="mt-4" [formGroup]="searchForm" (submit)="onSubmit()">
+<div class="form-group row">
+  <label for="imageSearch" class="col-sm-2 col-form-label">Search for images</label>
+  <div class="col-sm-10">
+    <input type="text" class="form-control" id="imageSearch" [formControl]="searchForm.get('searchQuery')">
+  </div>
+</div>
+
+<div class="form-group row">
+  <div class="col-sm-10">
+    <button type="submit" class="btn btn-primary">Search</button>
+  </div>
+</div>
+</form>

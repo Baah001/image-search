@@ -1,0 +1,4 @@
+/** Hiding the li after ellipsis as there is a known bug in giphy api (hard limit set to 4999) **/
+::ng-deep li.ellipsis + li {
+  display: none;
+}
