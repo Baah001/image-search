@@ -1,6 +1,8 @@
 # CurrentRouting
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+## ANGULAR CLI
+Please make sure you have @angular/cli installed globally, or run the project through node_modules angular cli bin to use ng commands
 
 ## Development server
 
@@ -16,11 +18,11 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm run e2e-run` to execute the unit tests via cypress
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `npm run e2e-open` to open test suit via cypress
 
 ## Further help
 

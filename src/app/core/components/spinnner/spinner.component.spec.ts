@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ImageSearchBaseComponent } from './image-search-base.component';
+import { SpinnerComponent } from './spinner.component';
 
-describe('ImageSearchBaseComponent', () => {
-  let component: ImageSearchBaseComponent;
-  let fixture: ComponentFixture<ImageSearchBaseComponent>;
+describe('SpinnnerComponent', () => {
+  let component: SpinnerComponent;
+  let fixture: ComponentFixture<SpinnerComponent>;
 
   beforeEach(async(() => {
 	TestBed.configureTestingModule({
-		declarations: [ ImageSearchBaseComponent ]
+		declarations: [ SpinnerComponent ]
 	})
 	.compileComponents();
   }));
 
   beforeEach(() => {
-	fixture = TestBed.createComponent(ImageSearchBaseComponent);
+	fixture = TestBed.createComponent(SpinnerComponent);
 	component = fixture.componentInstance;
 	fixture.detectChanges();
   });

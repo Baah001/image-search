@@ -3,12 +3,15 @@
   <label for="imageSearch" class="col-sm-2 col-form-label">Search for images</label>
   <div class="col-sm-10">
     <input type="text" class="form-control" id="imageSearch" [formControl]="searchForm.get('searchQuery')">
+    <div *ngIf="searchForm.dirty && searchForm.get('searchQuery').hasError('profane')" class="mt-2 alert alert-danger" role="alert">
+      Please, mind your language
+    </div>
   </div>
 </div>
 
 <div class="form-group row">
   <div class="col-sm-10">
-    <button type="submit" class="btn btn-primary">Search</button>
+    <button [disabled]="searchForm.invalid" type="submit" class="btn btn-primary">Search</button>
   </div>
 </div>
 </form>

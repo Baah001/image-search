@@ -14,6 +14,7 @@ import { AppSearchContentComponent } from './core/components/app-search-content/
 import { ImageSearchPaginationComponent } from './core/components/image-search-pagination/image-search-pagination.component';
 import {NgxPaginationModule} from 'ngx-pagination';
 import {PaginationPipe} from './shared/utils/pipes/pagination.pip';
+import { SpinnerComponent } from './core/components/spinnner/spinner.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {PaginationPipe} from './shared/utils/pipes/pagination.pip';
 	ImageSearchBaseComponent,
 	AppSearchContentComponent,
 	ImageSearchPaginationComponent,
-	PaginationPipe
+	PaginationPipe,
+	SpinnerComponent
   ],
   imports: [
 	BrowserModule,

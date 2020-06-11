@@ -5,11 +5,4 @@ import {Component, OnInit} from '@angular/core';
   templateUrl: './image-search-base.component.html',
   styleUrls: ['./image-search-base.component.css']
 })
-export class ImageSearchBaseComponent implements OnInit {
-  constructor() { }
-
-  ngOnInit(): void {
-
-  }
-
-}
+export class ImageSearchBaseComponent {}

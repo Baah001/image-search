@@ -6,11 +6,11 @@ describe('PaginationService', () => {
   let service: PaginationService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(PaginationService);
+	TestBed.configureTestingModule({});
+	service = TestBed.inject(PaginationService);
   });
 
   it('should be created', () => {
-    expect(service).toBeTruthy();
+	expect(service).toBeTruthy();
   });
 });
